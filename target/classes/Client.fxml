@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ListCell?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientController">
+    <center>
+        <VBox alignment="CENTER" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="message" text="Message:" alignment="BOTTOM_LEFT"/>
+                <TextField fx:id="c1" text = "Write your message" />
+                <ListView fx:id = "textArea" prefWidth="200" prefHeight="100"/>
+                <Label fx:id="Instructions" text="To message all clients write all,else write client number seprated by a comma if more than one. ex: 1 or 1,2,3 or all" />
+                <TextField fx:id="c2" text ="write client numbers separated by comma, or all if you want to message everyone." prefWidth="200.0"/>
+                <HBox alignment="CENTER" spacing="10.0">
+                    <Button fx:id="Send" onAction="#receivers" text="send" />
+                </HBox>
+                <ListView fx:id="listItems2" prefHeight="300.0" prefWidth="600.0" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

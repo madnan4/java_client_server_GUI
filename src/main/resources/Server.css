@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: lightgreen; /* Light grey background color */
+}
+
+.text-area {
+    -fx-font-size: 14px; /* Set font size for the text area */
+    -fx-font-family: "Segoe UI", Arial, sans-serif; /* Set font family for the text area */
+}
+#serverSideLabel {
+    -fx-font-size: 24px; /* Set font size for the server side label */
+    -fx-font-family: "Segoe UI", Arial, sans-serif; /* Set font family for the server side label */
+    -fx-font-weight: bold; /* Set font weight for the server side label */
+    -fx-text-fill: #0078D7; /* Set text color for the server side label */
+}

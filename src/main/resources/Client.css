@@ -1,0 +1,20 @@
+.root {
+    -fx-background-color: lightblue; /* Light grey background color */
+}
+
+.text-area {
+    -fx-font-size: 14px; /* Set font size for the text area */
+    -fx-font-family: "Segoe UI", Arial, sans-serif; /* Set font family for the text area */
+}
+
+.button {
+    -fx-font-size: 14px; /* Set font size for buttons */
+    -fx-font-family: "Segoe UI", Arial, sans-serif; /* Set font family for buttons */
+    -fx-background-color: #0078D7; /* Set background color for buttons */
+    -fx-text-fill: white; /* Set text color for buttons */
+    /*-fx-padding*/
+}
+
+.button:hover {
+    -fx-background-color: #3399FF; /* Set a lighter background color for buttons on hover */
+}
