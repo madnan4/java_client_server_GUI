@@ -11,7 +11,8 @@ public class GuiServer extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
-	static ArrayList<Integer>clientNumber = new ArrayList<>();
+
+	static ArrayList<Integer> clientNumber = new ArrayList<>();
 	static javafx.scene.control.TextArea textArea;
 
 	@Override
@@ -23,7 +24,7 @@ public class GuiServer extends Application {
 		// Load the CSS stylesheet
 		scene.getStylesheets().add(getClass().getResource("GuiServer.css").toExternalForm());
 
-		primaryStage.setTitle("Project 4");
+		primaryStage.setTitle("client_Server_chat_App");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
